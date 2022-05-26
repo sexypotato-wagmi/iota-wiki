@@ -4,8 +4,8 @@
 	branch = develop
 [submodule "content/build/identity.rs/v0.5.0"]
 	path = content/build/identity.rs/v0.5.0
-	url = https://github.com/iotaledger/identity.rs
-	branch = support/v0.5
+	url = https://github.com/dr-electron/identity.rs
+	branch = docs/feat/versioned-support-v0.5
 [submodule "content/build/integration-services/production"]
 	path = content/build/integration-services/production
 	url = https://github.com/iotaledger/integration-services
@@ -38,3 +38,7 @@
 	path = content/build/bee/production
 	url = https://github.com/iotaledger/bee.git
 	branch = production
+[submodule "content/build/identity.rs/develop"]
+	path = content/build/identity.rs/develop
+	url = https://github.com/dr-electron/identity.rs
+	branch = docs/feat/versioned-dev
