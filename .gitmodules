@@ -12,8 +12,8 @@
 	branch = master
 [submodule "content/build/iota.rs/production"]
 	path = content/build/iota.rs/production
-	url = https://github.com/iotaledger/iota.rs
-	branch = production
+	url = https://github.com/dr-electron/iota.rs
+	branch = docs/feat/versioned-production
 [submodule "content/build/wallet.rs/production"]
 	path = content/build/wallet.rs/production
 	url = https://github.com/iotaledger/wallet.rs
@@ -45,4 +45,8 @@
 [submodule "content/build/hornet/develop"]
 	path = content/build/hornet/develop
 	url = https://github.com/dr-electron/hornet
+	branch = docs/feat/versioned-develop
+[submodule "content/build/iota.rs/develop"]
+	path = content/build/iota.rs/develop
+	url = https://github.com/dr-electron/iota.rs
 	branch = docs/feat/versioned-develop
